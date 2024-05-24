@@ -19,6 +19,7 @@ def get_youtube_links(url):
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920x1080")
 
+    # Initialize the Chrome driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     # List to store video URLs
