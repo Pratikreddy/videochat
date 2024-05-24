@@ -1,0 +1,8 @@
+streamlit
+selenium
+webdriver-manager
+youtube-transcript-api
+faiss-cpu
+numpy
+openai
+pandas
